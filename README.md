@@ -4,6 +4,8 @@
 Communications Department\
 Lab of Professor Anne Warlaumont
 
+This code was originally developed by Curt Chang.
+
 **Mentors:**\
 Anne Warlaumont\
 UCLA Professor\
