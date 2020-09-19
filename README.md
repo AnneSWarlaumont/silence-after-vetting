@@ -4,7 +4,7 @@
 Communications Department\
 Lab of Professor Anne Warlaumont
 
-This code was originally developed by Curt Chang.
+(Anne's note: This tool was originally developed by Curt Chang. It was developed to help with actually silencing the audio in a LENA .wav file after that audio had been "vetted" in ELAN by at least two people in our lab and then reviewed together with me, at which point I made decisions on what to keep. An RA then cleaned up the comments following that meeting and at that point would be able to use this tool to take the ELAN .eaf file together with the .wav file and perform the silencing, a.k.a. scrubbing. Prior to Curt developing and using this tool, he and Vicky, another RA in the lab, performmed the scrubbing manually in Audacity. At this point, Curt has graduated, and I'm hoping to finally learn to use his tool myself on some files that have been vetted but not yet silenced.)
 
 **Mentors:**\
 Anne Warlaumont\
