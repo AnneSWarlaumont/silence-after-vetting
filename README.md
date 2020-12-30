@@ -1,6 +1,6 @@
 # Silence .eaf Audio Segments
 
-**Contributors:**\
+**Contributors:**
 
 Curt Chang\
 UCLA Major: Commuications w/ Computing Specialization
@@ -24,7 +24,7 @@ UCLA Minor: Linguistics
 
 Special thank you to James Robert (http://jiaaro.com) for his guidance on using the pydub module.
 
-**Introduction**\
+**Introduction**
 
 Greetings! This is a tool to silence sections of audio files that have been "vetted" to remove last names and particularly private information from daylong audio files. It is the final step in a multi-step process most of which is documented elsewhere, specifically in [this Google Document](https://docs.google.com/document/d/1ZUB6p6roVcF1t_cZbjUeE_7nHToJqcJ8eMghQMSf4IU/edit?usp=sharing).
 
