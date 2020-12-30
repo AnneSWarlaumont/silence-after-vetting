@@ -92,7 +92,7 @@ Now that the modules pydub and xmltodict have been downloaded, we need to tell P
 <img src="images/nano_bash_profile.png" width="400" >
 
 3. You will then be directed to another window that looks similar to the one in the picture below. 
-- In the first line, type 'PATH="/Users/AccountName/Library/Python/3.7/lib/python/site-packages:${PATH}' (without the outer quotation marks). You may copy and paste this directly to the terminal. Keep in mind, however, that you must change the AccountName to your corresponding AccountName. 
+- In the first line, type 'PATH="/Users/AccountName/Library/Python/3.7/lib/python/site-packages:${PATH}' (without the outer quotation marks). You may copy and paste this directly to the terminal. Keep in mind, however, that you must change the AccountName to your corresponding AccountName. You may also need to change the Python version number.
 - In the second line, type 'export PATH' (without quotation marks).
 Your output should resemble the example below. Then, control+x to exit.
 <img src="images/add_path.png" width="600" >
