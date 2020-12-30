@@ -22,10 +22,11 @@ Natalie Hynes\
 UCLA Major: Communications\
 UCLA Minor: Linguistics
 
+Special thank you to James Robert (http://jiaaro.com) for his guidance on using the pydub module.
 
-Greetings,
+**Introduction**\
 
-Thank you for taking the time to take a look at our project! This is a tool to silence sections of audio files that have been "vetted" to remove last names and particularly private information from daylong audio files. It is the final step in a multi-step process most of which is documented elsewhere, specifically in [this Google Document](https://docs.google.com/document/d/1ZUB6p6roVcF1t_cZbjUeE_7nHToJqcJ8eMghQMSf4IU/edit?usp=sharing).
+Greetings! This is a tool to silence sections of audio files that have been "vetted" to remove last names and particularly private information from daylong audio files. It is the final step in a multi-step process most of which is documented elsewhere, specifically in [this Google Document](https://docs.google.com/document/d/1ZUB6p6roVcF1t_cZbjUeE_7nHToJqcJ8eMghQMSf4IU/edit?usp=sharing).
 
 One very important role of our Research Assistants is to ensure the privacy of particpants as we vet audio recordings.  ELAN is
 a software tool that we utilize to annotate time selections of the sensitive information during the vetting process.  ELAN
@@ -37,11 +38,9 @@ utilize Python and the module [xmltodict](https://pypi.org/project/xmltodict/) t
 After we have extracted the time segments (from the .eaf file) that contain the sensitive information of the
 participants, we use the module [pydub](https://pypi.org/project/pydub/) to silence out those time segments.
 
-P.S.
-
-Special thank you to James Robert (http://jiaaro.com) for his guidance on using the pydub module.
-
 (Anne's note: This tool was originally developed by Curt Chang. It was developed to help with actually silencing the audio in a LENA .wav file after that audio had been "vetted" in ELAN by at least two people in our lab and then reviewed together with me, at which point I made decisions on what to keep. An RA then cleaned up the comments following that meeting and at that point would be able to use this tool to take the ELAN .eaf file together with the .wav file and perform the silencing, a.k.a. scrubbing. Prior to Curt developing and using this tool, he and Vicky, another RA in the lab, performmed the scrubbing manually in Audacity. At this point, Curt has graduated, and I'm hoping to finally learn to use his tool myself on some files that have been vetted but not yet silenced.)
+
+Thank you for taking the time to take a look at this project and documentation!
 
 ## Step 1: Here is how to check if Python 3 is already available on your desktop:
 1. Start off by holding the "cmd" button followed pushing the spacebar. The "Spotlight Search" function should then appear. Inside the "Spotlight Search" bar, type in "terminal". The following image should appear, this is the terminal window these instructions will refer to.
@@ -75,6 +74,8 @@ Python version 3 is available for download here: [python](https://www.python.org
 <img src="images/run_get_pip.png" width="400" >
 5. Now, let's check to see if you have successfully installed pip by typing "pip3 --version" (without quotation marks but with a space in between "pip3" and "--version"). The following image should appear:
 <img src="images/check_pip.png" width="650" >
+
+## You will also need to have XCode installed (you can get it from Mac's App Store)
 
 ## Step 3: Install pydub and xmltodict:
 We will use pip to install xmltodict and pydub.  These modules will be used in the silencing and parsing of the audio file and .eaf file
