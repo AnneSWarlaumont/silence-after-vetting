@@ -25,7 +25,7 @@ UCLA Minor: Linguistics
 
 Greetings,
 
-Thank you for taking the time to take a look at our project! This is a tool to silence sections of audio files that have been "vetted" to remove last names and particularly private information from daylong audio files. It is the final step in a multi-step process most of which is documented elsewhere, specifically in [this Google Document] (https://docs.google.com/document/d/1ZUB6p6roVcF1t_cZbjUeE_7nHToJqcJ8eMghQMSf4IU/edit?usp=sharing).
+Thank you for taking the time to take a look at our project! This is a tool to silence sections of audio files that have been "vetted" to remove last names and particularly private information from daylong audio files. It is the final step in a multi-step process most of which is documented elsewhere, specifically in [this Google Document](https://docs.google.com/document/d/1ZUB6p6roVcF1t_cZbjUeE_7nHToJqcJ8eMghQMSf4IU/edit?usp=sharing).
 
 One very important role of our Research Assistants is to ensure the privacy of particpants as we vet audio recordings.  ELAN is
 a software tool that we utilize to annotate time selections of the sensitive information during the vetting process.  ELAN
