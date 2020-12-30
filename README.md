@@ -1,48 +1,35 @@
 # Silence .eaf Audio Segments
 
-**University of California, Los Angeles**\
-Communications Department\
-Lab of Professor Anne Warlaumont
+**Contributors:**\
 
-(Anne's note: This tool was originally developed by Curt Chang. It was developed to help with actually silencing the audio in a LENA .wav file after that audio had been "vetted" in ELAN by at least two people in our lab and then reviewed together with me, at which point I made decisions on what to keep. An RA then cleaned up the comments following that meeting and at that point would be able to use this tool to take the ELAN .eaf file together with the .wav file and perform the silencing, a.k.a. scrubbing. Prior to Curt developing and using this tool, he and Vicky, another RA in the lab, performmed the scrubbing manually in Audacity. At this point, Curt has graduated, and I'm hoping to finally learn to use his tool myself on some files that have been vetted but not yet silenced.)
+Curt Chang\
+UCLA Major: Commuications w/ Computing Specialization
 
-**Mentors:**\
 Anne Warlaumont\
-UCLA Professor\
 [Emergence of Communication Lab](https://www.annewarlaumont.org)
 
 Kyle MacDonald\
-UCLA Postdoc Researcher\
 [Kyle MacDonald's Website](https://kemacdonald.com)
 
-**Contributors:**\
-Anne Warlaumont
-
-Kyle MacDonald
-
 Vicky Chen\
-Double Major: Business Economics and Communication\
-UCLA Anderson School of Management: Masters of Science in Business Analytics
-
-Curt Chang\
-Major: Commuications w/ Computing Specialization
+UCLA Majors: Business Economics and Communication\
 
 Dania Pineda\
-Major: Applied Linguistics\
-Minor: Education Studies
+UCLA Major: Applied Linguistics\
+UCLA Minor: Education Studies
 
 Natalie Hynes\
-Major: Communications\
-Minor: Linguistics
+UCLA Major: Communications\
+UCLA Minor: Linguistics
 
 
 Greetings,
 
-Thank you for taking the time to take a look at our project!
+Thank you for taking the time to take a look at our project! This is a tool to silence sections of audio files that have been "vetted" to remove last names and particularly private information from daylong audio files. It is the final step in a multi-step process most of which is documented elsewhere, specifically in [this Google Document] (https://docs.google.com/document/d/1ZUB6p6roVcF1t_cZbjUeE_7nHToJqcJ8eMghQMSf4IU/edit?usp=sharing).
 
-Our most important task as Research Assistants is to ensure the privacy of particpants as we vet audio recordings.  ELAN is
+One very important role of our Research Assistants is to ensure the privacy of particpants as we vet audio recordings.  ELAN is
 a software tool that we utilize to annotate time selections of the sensitive information during the vetting process.  ELAN
-creates a A file extension of type (.eaf) that containing annotations and their associated time segments.  
+creates a a file extension of type (.eaf) that contains annotations and their associated time segments.  
 
 Opening the file (.eaf) with a text editor displays the ELAN information (annotation and time selections) in XML format.  We
 utilize Python and the module [xmltodict](https://pypi.org/project/xmltodict/) to extract this information, such as annotated text, selected tiers, time slots, etc.  
@@ -53,6 +40,8 @@ participants, we use the module [pydub](https://pypi.org/project/pydub/) to sile
 P.S.
 
 Special thank you to James Robert (http://jiaaro.com) for his guidance on using the pydub module.
+
+(Anne's note: This tool was originally developed by Curt Chang. It was developed to help with actually silencing the audio in a LENA .wav file after that audio had been "vetted" in ELAN by at least two people in our lab and then reviewed together with me, at which point I made decisions on what to keep. An RA then cleaned up the comments following that meeting and at that point would be able to use this tool to take the ELAN .eaf file together with the .wav file and perform the silencing, a.k.a. scrubbing. Prior to Curt developing and using this tool, he and Vicky, another RA in the lab, performmed the scrubbing manually in Audacity. At this point, Curt has graduated, and I'm hoping to finally learn to use his tool myself on some files that have been vetted but not yet silenced.)
 
 ## Step 1: Here is how to check if Python 3 is already available on your desktop:
 1. Start off by holding the "cmd" button followed pushing the spacebar. The "Spotlight Search" function should then appear. Inside the "Spotlight Search" bar, type in "terminal". The following image should appear, this is the terminal window these instructions will refer to.
